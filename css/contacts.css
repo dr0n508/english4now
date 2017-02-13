@@ -1,0 +1,68 @@
+.contacts {
+  padding: 50px 0;
+  background: #edeff2; }
+  .contacts .contacts-info li {
+    color: #404040; }
+    .contacts .contacts-info li:first-child p {
+      font-size: 14px; }
+      .contacts .contacts-info li:first-child p span {
+        display: inline;
+        font-weight: 700; }
+    .contacts .contacts-info li p {
+      font-weight: 400;
+      font-size: 14px;
+      margin: 10px 0; }
+      .contacts .contacts-info li p:first-child {
+        text-transform: uppercase;
+        font-size: 22px;
+        color: #e96656; }
+
+.wrap-form .form-contact {
+  width: 100%;
+  background: none; }
+  .wrap-form .form-contact .btn-submit {
+    /*border-radius: 5px */
+    width: 100%;
+    margin-top: 20px;
+    /*margin: 20px 100px 0 10px */
+    background: #e96656;
+    padding: 10px 50px;
+    color: #ffffff;
+    border: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    .wrap-form .form-contact .btn-submit:hover {
+      background: #000000; }
+
+.wrap-form-name, .wrap-form-email, .wrap-form-subject, .wrap-form-message {
+  padding: 5px; }
+  .wrap-form-name input, .wrap-form-name textarea, .wrap-form-email input, .wrap-form-email textarea, .wrap-form-subject input, .wrap-form-subject textarea, .wrap-form-message input, .wrap-form-message textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border: solid 1px #dcdcdc;
+    outline: none;
+    padding: 10px 15px; }
+    .wrap-form-name input:focus, .wrap-form-name input:hover, .wrap-form-name textarea:focus, .wrap-form-name textarea:hover, .wrap-form-email input:focus, .wrap-form-email input:hover, .wrap-form-email textarea:focus, .wrap-form-email textarea:hover, .wrap-form-subject input:focus, .wrap-form-subject input:hover, .wrap-form-subject textarea:focus, .wrap-form-subject textarea:hover, .wrap-form-message input:focus, .wrap-form-message input:hover, .wrap-form-message textarea:focus, .wrap-form-message textarea:hover {
+      border: solid 1px #000000; }
+  .wrap-form-name ::-webkit-input-placeholder, .wrap-form-email ::-webkit-input-placeholder, .wrap-form-subject ::-webkit-input-placeholder, .wrap-form-message ::-webkit-input-placeholder {
+    font-weight: 300; }
+
+.add-info {
+  padding: 30px 0 30px;
+  margin-top: 20px;
+  font-weight: 300; }
+  .add-info p {
+    margin-bottom: 10px; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 768px) {
+  .contacts-info {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; } }
+
+/*# sourceMappingURL=contacts.css.map */

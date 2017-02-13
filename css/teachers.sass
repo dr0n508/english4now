@@ -1,0 +1,72 @@
+.teachers
+  padding: 20px 0
+  background: #edeff2
+
+.list-teachers
+  border-top: solid 1px #dddee2
+  border-bottom: solid 1px #dddee2
+  padding-top: 20px
+  margin: 20px 0
+  li
+    &:nth-child(2n) .wrap-teacher .name-teacher
+      border-bottom: solid 2px #34d293
+    &:nth-child(3n) .wrap-teacher .name-teacher
+      border-bottom: solid 2px #3ab0e2
+    &:nth-child(4n) .wrap-teacher .name-teacher
+      border-bottom: solid 2px #e7ac44
+
+.wrap-teacher
+  padding: 30px 20px
+  position: relative
+  background: ghostwhite
+  margin-bottom: 30px
+  border-bottom: 3px solid #E3E4E8
+  border-radius: 2px
+  .cv-teacher
+    font-weight: 300
+    display: none
+    position: absolute
+    left: -5px
+    right: -5px
+    top: -5px
+    bottom: -5px
+    padding: 15px
+    background: rgba(0,0,0,.85)
+    color: #ffffff
+    font-size: 13px
+  .name-teacher
+    text-align: center
+    text-transform: uppercase
+    margin: 15px 20px
+    padding-bottom: 10px
+    border-bottom: solid 2px #e96656
+    font-weight: 600
+    font-size: 16px
+    span
+      text-transform: none
+      display: block
+      font-size: 12px
+      font-weight: 400
+  .age-teacher, .experience, .certificate
+    margin: 0
+    font-weight: 400
+    text-align: center
+    font-size: 13px
+    span
+      font-weight: 300
+
+/************************Responsive******************/
+/****************************************************/
+
+@media only screen and (max-width: 1200px)
+
+@media only screen and (max-width: 992px)
+
+@media only screen and (max-width: 768px)
+  .wrap-teacher
+    width: 280px
+    margin: 0 auto 20px
+
+@media only screen and (max-width: 350px)
+  .wrap-teacher
+    width: 100%

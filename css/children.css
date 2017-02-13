@@ -1,0 +1,84 @@
+.children-english {
+  margin-top: 120px;
+  padding: 50px 0;
+  /*background: ghostwhite */
+  background: url("../img/welcome-screen13.jpg");
+  background-size: cover; }
+
+.info-course {
+  text-align: center; }
+  .info-course .wrap-info-course {
+    padding-bottom: 300px;
+    background: url("../img/texture-1.png");
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  .info-course img {
+    width: 100%;
+    height: auto; }
+  .info-course .structurecourse {
+    width: 60%;
+    height: auto;
+    margin-left: 20%; }
+  .info-course h5 {
+    color: #000000;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 16px; }
+  .info-course ul {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 30px; }
+    .info-course ul li {
+      margin-bottom: 8px;
+      margin-left: 20px;
+      text-align: left; }
+      .info-course ul li span {
+        font-weight: 400;
+        color: #000000; }
+  .info-course .btn-red {
+    text-align: left;
+    margin-top: 50px; }
+
+/************** */
+.descr-course-full article {
+  /*-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15) */
+  /*-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15) */
+  /*box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15) */
+  padding: 20px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  color: #999999;
+  border-bottom: dotted 1px gray; }
+  .descr-course-full article h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #000000; }
+  .descr-course-full article img {
+    width: auto;
+    height: 80px;
+    display: block;
+    margin: 10px auto; }
+.descr-course-full .descr-course h2 {
+  color: #000000; }
+.descr-course-full .target-course ul {
+  margin-top: 10px; }
+  .descr-course-full .target-course ul li {
+    margin-bottom: 3px;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600; }
+.descr-course-full .books-course h4 {
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  margin: 5px 0; }
+.descr-course-full .books-course p {
+  font-size: 12px; }
+
+/*# sourceMappingURL=children.css.map */
